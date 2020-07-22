@@ -1,3 +1,4 @@
+const { clear } = require("console");
 // require fs
 const fs = require("fs");
 const inquirer = required("inquirer");
@@ -64,6 +65,6 @@ const questions = [
         name: "authors",
         message: "Who are the authors?"
     },
-
-
 ]
+//The console.clear() method clears the console if the environment allows it.
+console.clear();

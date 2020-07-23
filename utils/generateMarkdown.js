@@ -34,14 +34,11 @@ function generateMarkdown(data) {
   *[Tests](#tests)
  
 
-  *[GitHub](http://github.com/${data.questions})
+  *[Questions]
   
-  
-  *[Email](<${data.question2}>)
+  If you have any questions about the repo, feel free to contact me through gitHub (http://github.com/${data.questions})
+  or directly at (<${data.question2}>)
 
-
-  ## Authors
- 
 
 `;
 }

@@ -18,27 +18,30 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Write a description.",
+    message: "Write a description of your project.",
   },
-  {
-    type: "input",
-    name: "tableOfContents",
-    message: "Create table of contents.",
-  },
+  // {
+  //   type: "input",
+  //   name: "tableOfContents",
+  //   message: "Create table of contents.",
+  // },
   {
     type: "input",
     name: "installation",
     message: "Instructions for installation.",
+    default: "npm i",
   },
   {
     type: "input",
     name: "usage",
     message: "Describe Usage.",
+  
   },
   {
     type: "list",
     name: "license",
     message: "Choose a license.",
+    default: "use arrow key",
     choices: [
       "MIT License",
       "Apache License",
@@ -54,6 +57,7 @@ const questions = [
     type: "input",
     name: "contributiong",
     message: "Contribution rules.",
+    default: "Clone it, fork it but don't push any changes to master",
   },
   {
     type: "input",
@@ -69,7 +73,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
+    name: "question2",
     message: "What is your email address?",
   },
   // {

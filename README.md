@@ -1,11 +1,11 @@
-# README GENERATOR
+# README generator
   ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
 
   ## Title
-  README GENERATOR
+  README generator
 
   ## Description
-  test1
+  generates readme
 
   ## Table of Contents
   

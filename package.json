@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/dianapulatova/README#readme",
   "dependencies": {
-    "doctoc": "^1.4.0",
-    "inquirer": "^6.5.2",
-    "node-modules": "^1.0.1"
+    "inquirer": "^6.5.2"
   }
 }

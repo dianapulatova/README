@@ -11,11 +11,6 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        name: "badge",
-        message: "Code repo badge"
-    },
-    {
-        type: "input",
         name: "title",
         message: "What is the title of your project?"
     },
@@ -100,93 +95,3 @@ function init() {
 // function call to initialize program
 init();
 
-// //The console.clear() method clears the console if the environment allows it.
-// console.clear();
-
-// inquirer.prompt(questions).then(response => {
-//     fs.appendFileSync("README.md", ("#" + response.badge) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);    
-//         }
-//         console.log("Success!");   
-//     });
-//     fs.appendFileSync("README.md", ("#" + response.tile) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);    
-//         }
-//         console.log("Success!");   
-//     });
-//     fs.appendFileSync("README.md", ("Description" + '\n' + response.description) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("Table of Contents" + '\n' + ' - ' + response.tableOfContents) + 
-//      '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("Installation Instructions" + '\n' + response.installation) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("Usage" + '\n' + response.usage) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("License" + '\n' + response.license) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("Contributing" + '\n' + response.contributing) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("How to Run Tests" + '\n' + response.tests) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("Questions" + '\n' + response.questions) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("GitHub Username" + '\n' + "![aly test]" + response.gitHubUsername) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     });
-//     fs.appendFileSync("README.md", ("Author" + '\n' + response.authors) + '\n', function(err) {
-//         if (err) {
-//             return console.log(err);   
-//         }
-//         console.log("Success!");
-        
-//     })
-
-
-// })

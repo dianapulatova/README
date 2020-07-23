@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
  
 
-  [GitHub](http://github.com)
+  *[GitHub](http://github.com)
   
 
   ## Authors

@@ -1,3 +1,4 @@
+const { timeStamp } = require("console");
 // const { clear } = require("console");
 // require fs
 const fs = require("fs");
@@ -58,18 +59,19 @@ const questions = [
     type: "input",
     name: "tests",
     message: "Run the test here!",
+    default: "npm test", 
   },
   {
     type: "input",
     name: "questions",
     message: "What's your gitHub username?",
+   
+  },
+  {
+    type: "input",
+    name: "questions",
     message: "What is your email address?",
   },
-  // {
-  //   type: "input",
-  //   name: "question2",
-  //   message: "What is your email?",
-  // },
   // {
   //   type: "input",
   //   name: "authors",

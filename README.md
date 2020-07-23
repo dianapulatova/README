@@ -1,14 +1,14 @@
-# a
-  ![GitHub license](https://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
+# README GENERATOR
+  ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
 
   ## Title
-  a
+  README GENERATOR
 
   ## Description
-  a
+  test1
 
   ## Table of Contents
-  a
+  
 
   * [Installation](#installation)
 
@@ -25,12 +25,9 @@
   *[Tests](#tests)
  
 
-  *[GitHub](http://github.com/dianapulatova)
+  *[Questions]
   
-  
-  *[Email](<dianapulatovaa@gmail.com>)
+  If you have any questions about the repo, feel free to contact me through gitHub (http://github.com/dianapulatovaa@gmail.com)
+  or directly at (<undefined>)
 
-
-  ## Authors
- 
 

@@ -27,11 +27,11 @@ function generateMarkdown(data) {
   *[Tests](#tests)
  
 
-  * [Questions](#questions)
- 
-
   *[GitHub](http://github.com)
   
+  
+  * [Email](#questions)
+ 
 
   ## Authors
  

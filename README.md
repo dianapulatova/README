@@ -28,7 +28,7 @@
   *[GitHub](http://github.com/dianapulatova)
   
   
-  *[Email](#dianapulatovaa@gmail.com)
+  *[Email](dianapulatovaa@gmail.com)
 
 
   ## Authors

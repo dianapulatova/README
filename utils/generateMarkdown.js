@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   *[GitHub](http://github.com/${data.questions})
   
   
-  *[Email](#${data.question2})
+  *[Email](<${data.question2}>)
 
 
   ## Authors

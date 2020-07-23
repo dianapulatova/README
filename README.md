@@ -1,5 +1,5 @@
 # a
-  ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
 
   ## Title
   a
@@ -28,7 +28,7 @@
   *[GitHub](http://github.com/dianapulatova)
   
   
-  *[Email](dianapulatovaa@gmail.com)
+  *[Email](<dianapulatovaa@gmail.com>)
 
 
   ## Authors

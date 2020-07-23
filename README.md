@@ -1,35 +1,36 @@
-# README generator
+# a
+  ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
 
-  # Title
-  README generator
+  ## Title
+  a
 
   ## Description
-  README is a file that explains or introduces the project and it contains informations that are required to understand what the project is about. 
+  a
 
   ## Table of Contents
-  test
+  a
 
-  ## Installation
-  test
+  * [Installation](#installation)
 
-  ## Usage
-  test
 
-  ## License
+  * [Usage](#usage)
+
+
+  * License
+  undefined
+
+  *[ Contributing](#contributing)
   
 
-  ## Contributing
-  undefined
+  *[Tests](#tests)
+ 
 
-  ## Tests
-  test
+  *[GitHub](http://github.com/dianapulatova)
+  
+  
+  *[Email](#dianapulatovaa@gmail.com)
 
-  ## Questions
-  test
-
-  ## GitHub Username
-  undefined
 
   ## Authors
-  solo
+ 
 

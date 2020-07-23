@@ -1,4 +1,11 @@
 // function to generate markdown for README
+
+function renderLicenseBadge(license) {
+  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+}
+
+function renderLicenseLink() {}
+
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
@@ -27,11 +34,11 @@ function generateMarkdown(data) {
   *[Tests](#tests)
  
 
-  *[GitHub](http://github.com)
+  *[GitHub](http://github.com/${data.questions})
   
   
-  * [Email](#questions)
- 
+  *[Email](#${data.question2})
+
 
   ## Authors
  

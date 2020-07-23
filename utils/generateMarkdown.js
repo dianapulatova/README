@@ -30,11 +30,11 @@ function generateMarkdown(data) {
   * [Questions](#questions)
  
 
-  ## Email
-  ${data.gitHubUsername}
+  [GitHub](http://github.com)
+  
 
   ## Authors
-  ${data.authors}
+ 
 
 `;
 }

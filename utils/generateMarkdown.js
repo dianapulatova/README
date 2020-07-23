@@ -19,7 +19,7 @@ function generateMarkdown(data) {
 
 
   * License
-  ${renderLicenseLink(data.license)}Rea
+  ${renderLicenseLink(data.license)}
 
   *[ Contributing](#contributing)
   

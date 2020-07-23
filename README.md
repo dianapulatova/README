@@ -1,6 +1,6 @@
 # AWESOME README GENERATOR!
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-Apache License)
 
   ## Description
   This project helps to generate README.md which is used to introduse the project.
@@ -13,18 +13,18 @@
   * [Usage](#usage)
 
 
-  * License
-  undefined
+  * [License](#license)
+ 
 
-  *[ Contributing](#contributing)
+  *[Contributing](#contributing)
   
 
   *[Tests](#tests)
  
 
-  *[Questions]
+  ## Questions
   
-  // If you have any questions about the repo, feel free to contact me through gitHub dianapulatova
+  // If you have any questions about the repo, feel free to contact me through gitHub <dianapulatova>
   or directly at <dianapulatovaa@gmail.com>
 
 

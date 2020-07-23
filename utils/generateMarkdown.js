@@ -1,7 +1,8 @@
 // function to generate markdown for README
 
 function renderLicenseBadge(license) {
-  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  // return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  return`![GitHub license](https://img.shields.io/badge/license-${license})`;
 }
 
 function renderLicenseLink() {}
@@ -22,18 +23,18 @@ function generateMarkdown(data) {
   * [Usage](#usage)
 
 
-  * License
-  ${renderLicenseLink(data.license)}
+  * [License](#license)
+ 
 
-  *[ Contributing](#contributing)
+  *[Contributing](#contributing)
   
 
   *[Tests](#tests)
  
 
-  *[Questions]
+  ## Questions
   
-  // If you have any questions about the repo, feel free to contact me through gitHub ${data.questions}
+  // If you have any questions about the repo, feel free to contact me through gitHub <${data.questions}>
   or directly at <${data.question2}>
 
 
@@ -47,3 +48,6 @@ module.exports = generateMarkdown;
 
 // ## Table of Contents
 // ${data.tableOfContents}
+
+// * License
+// ${renderLicenseLink(data.license)}

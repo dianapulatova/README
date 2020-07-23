@@ -8,16 +8,13 @@ function renderLicenseLink() {}
 
 function generateMarkdown(data) {
   return `# ${data.title}
-  ${renderLicenseBadge(data.license)}
 
-  ## Title
-  ${data.title}
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
 
   ## Table of Contents
-  ${data.tableOfContents}
 
   * [Installation](#installation)
 
@@ -36,11 +33,17 @@ function generateMarkdown(data) {
 
   *[Questions]
   
-  If you have any questions about the repo, feel free to contact me through gitHub (http://github.com/${data.questions})
-  or directly at (<${data.question2}>)
+  // If you have any questions about the repo, feel free to contact me through gitHub ${data.questions}
+  or directly at <${data.question2}>
 
 
 `;
 }
 
 module.exports = generateMarkdown;
+
+// ## Title
+// ${data.title}
+
+// ## Table of Contents
+// ${data.tableOfContents}

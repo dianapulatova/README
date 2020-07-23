@@ -1,16 +1,12 @@
 const { clear } = require("console");
 // require fs
 const fs = require("fs");
-const inquirer = required("inquirer");
+const { string } = require("optimist");
+const inquirer = require("inquirer");
 
 // create const questions for the input 
 
 const questions = [
-    {
-        type: "input",
-        name: "bage",
-        message: "input bage code"
-    },
     {
         type: "input",
         name: "title",
@@ -41,7 +37,7 @@ const questions = [
             "GPL License",
             "Public Domain",
             "Mozilla Public License 2.0",
-            "Creative Commons Zero v1.0 Universal"
+            "Creative Commons Zero v1.0 Universal",
             "The Unlicense",
             "Eclipse Public License 2.0"
         ]},
@@ -72,11 +68,17 @@ console.clear();
 inquirer.prompt(questions).then(response => {
     fs.appendFileSync("README.md", ("#" + response.tile) + '\n', function(err) {
         if (err) {
-            return console.log(err);
-            
+            return console.log(err);    
+        }
+        console.log("Success!");   
+    });
+    fs.appendFileSync("README.md", ('\n' + response.description) + '\n', function(err) {
+        if (err) {
+            return console.log(err);   
         }
         console.log("Success!");
         
-    });
-    
+    })
+
+
 })

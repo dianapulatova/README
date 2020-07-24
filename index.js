@@ -60,7 +60,7 @@ const questions = [
     type: "input",
     name: "contributing",
     message: "Contribution rules.",
-    default: "Clone it, fork it but don't push any changes to master",
+    default: "Clone it, fork it but don't push any changes to master.",
   },
   {
     type: "input",

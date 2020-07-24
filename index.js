@@ -55,7 +55,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "contributiong",
+    name: "contributing",
     message: "Contribution rules.",
     default: "Clone it, fork it but don't push any changes to master",
   },

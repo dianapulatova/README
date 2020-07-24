@@ -1,6 +1,6 @@
 # AWESOME README GENERATOR!
 
-  ![GitHub license](https://img.shields.io/badge/license-Creative%20Commons%20Zero%20v1.0%20Universal-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
   ## Description
   This project helps to generate README.md which is used to introduse the project.
@@ -33,7 +33,7 @@
   
   
   ### License
-  Creative Commons Zero v1.0 Universal
+  MIT License
 
 
   ### Contributing
@@ -45,7 +45,7 @@
   ### Questions
    
   
-     If you have any questions about the repo, feel free to contact me through gitHub [dianapulatova](https://github.com/dianapulatova)
+  If you have any questions about the repo, feel free to contact me through gitHub [dianapulatova](https://github.com/dianapulatova)
   or directly at <dianapulatovaa@gmail.com>
 
 

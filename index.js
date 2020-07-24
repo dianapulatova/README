@@ -14,11 +14,13 @@ const questions = [
     type: "input",
     name: "title",
     message: "What is the title of your project?",
+    default: "AWESOME README GENERATOR!",
   },
   {
     type: "input",
     name: "description",
     message: "Write a description of your project.",
+    default: "This project helps to generate README.md which is used to introduse the project.",
   },
   // {
   //   type: "input",
@@ -35,6 +37,7 @@ const questions = [
     type: "input",
     name: "usage",
     message: "Describe Usage.",
+    default: "README generator can be used for generating AWESOME README.md in a fast and convinient way!",
   
   },
   {
@@ -69,18 +72,16 @@ const questions = [
     type: "input",
     name: "username",
     message: "What's your gitHub username?",
+    default: "dianapulatova",
    
   },
   {
     type: "input",
     name: "email",
     message: "What is your email address?",
+    default: "dianapulatovaa@gmail.com"
   },
-  // {
-  //   type: "input",
-  //   name: "authors",
-  //   message: "Who are the authors?",
-  // },
+  
 ];
 
 // function to write README file

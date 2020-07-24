@@ -1,9 +1,9 @@
 # AWESOME README GENERATOR!
 
-  ![GitHub license](https://img.shields.io/badge/license-Creative%20Commons%20Zero%20v1.0%20Universal-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-blue.svg)
 
   ## Description
-   This project helps to generate README.md which is used to introduse the project.
+  This project helps to generate README.md which is used to introduse the project.
 
   ## Table of Contents
 
@@ -33,11 +33,11 @@
   
   
   ### License
-  Creative Commons Zero v1.0 Universal
+  Mozilla Public License 2.0
 
 
   ### Contributing
-  undefined
+  Clone it, fork it but don't push any changes to master
   
   ### Tests
     npm test

@@ -1,6 +1,6 @@
 # AWESOME README GENERATOR!
 
-  ![GitHub license](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-Creative%20Commons%20Zero%20v1.0%20Universal-blue.svg)
 
   ## Description
   This project helps to generate README.md which is used to introduse the project.
@@ -9,24 +9,35 @@
 
   * [Installation](#installation)
 
-
   * [Usage](#usage)
-
 
   * [License](#license)
  
-
   * [Contributing](#contributing)
-  
-
+   
   * [Tests](#tests)
-    npm test
- 
 
-  ## Installation
+  * [Questions](#questions)
+   
+ 
+  ### Installation
     npm i
-    
-  ## Questions
+
+  ### Usage
+    clone it
+  
+  ### License
+    Creative Commons Zero v1.0 Universal
+
+
+  ### Contributing
+    undefined
+  
+  ### Tests
+    npm test
+        
+  ### Questions
+    dianapulatova
   
   // If you have any questions about the repo, feel free to contact me through gitHub <dianapulatova>
   or directly at <dianapulatovaa@gmail.com>

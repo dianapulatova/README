@@ -29,27 +29,41 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
 
-
   * [Usage](#usage)
-
 
   * [License](#license)
  
-
   * [Contributing](#contributing)
-   ${data.contributing}
-  
-
+   
   * [Tests](#tests)
-    ${data.tests}
- 
 
-  ## Installation
+  * [Questions](#questions)
+   
+ 
+  ### Installation
+
+  To install dependencies, run the following command:
     ${data.installation}
-    
-  ## Questions
+
+  ### Usage
+
+  Clone it, fork it but dont push any changes to master!
+    ${data.usage}
   
-  // If you have any questions about the repo, feel free to contact me through gitHub <${data.question1}>
+  ### License
+    ${data.license}
+
+
+  ### Contributing
+    ${data.contributing}
+  
+  ### Tests
+    ${data.tests}
+        
+  ### Questions
+    ${data.questions}
+  
+  // If you have any questions about the repo, feel free to contact me through gitHub <${data.questions}>
   or directly at <${data.question2}>
 
 
@@ -58,11 +72,4 @@ function generateMarkdown(data) {
 
 module.exports = generateMarkdown;
 
-// ## Title
-// ${data.title}
 
-// ## Table of Contents
-// ${data.tableOfContents}
-
-// * License
-// ${renderLicenseLink(data.license)}

@@ -67,13 +67,13 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
+    name: "username",
     message: "What's your gitHub username?",
    
   },
   {
     type: "input",
-    name: "question2",
+    name: "email",
     message: "What is your email address?",
   },
   // {

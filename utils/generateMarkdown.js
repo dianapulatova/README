@@ -1,8 +1,18 @@
 // function to generate markdown for README
 
+
 function renderLicenseBadge(license) {
-  // return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-  return`![GitHub license](https://img.shields.io/badge/license-${license})`;
+  var chosenLicense = "";
+for (let i = 0; i < license.length; i++ ) {
+   if (license[i] === " ") {
+      chosenLicense += "%20";
+   }
+   else {
+      chosenLicense += license[i]
+   }
+}
+ 
+  return `![GitHub license](https://img.shields.io/badge/license-${chosenLicense}-blue.svg)`;
 }
 
 function renderLicenseLink() {}
@@ -26,15 +36,20 @@ function generateMarkdown(data) {
   * [License](#license)
  
 
-  *[Contributing](#contributing)
+  * [Contributing](#contributing)
+   ${data.contributing}
   
 
-  *[Tests](#tests)
+  * [Tests](#tests)
+    ${data.tests}
  
 
+  ## Installation
+    ${data.installation}
+    
   ## Questions
   
-  // If you have any questions about the repo, feel free to contact me through gitHub <${data.questions}>
+  // If you have any questions about the repo, feel free to contact me through gitHub <${data.question1}>
   or directly at <${data.question2}>
 
 

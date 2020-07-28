@@ -1,12 +1,12 @@
 # AWESOME README GENERATOR!
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-Creative%20Commons%20Zero%20v1.0%20Universal-blue.svg)
 
   ## Description
   This project helps to generate README.md which is used to introduse the project.
-  <video width="320" height="240" controls>
-  <source src="./Demo/README-gen-demo.mp4" type="video/mp4">
-</video>
+
+[README-gen-demo](https://drive.google.com/drive/u/0/my-drive?ths=true "README-gen-demo")
+
 
   ## Table of Contents
 
@@ -36,7 +36,7 @@
   
   
   ### License
-  MIT License
+  Creative Commons Zero v1.0 Universal
 
 
   ### Contributing

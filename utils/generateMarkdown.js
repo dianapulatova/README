@@ -24,6 +24,9 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
+  <video width="320" height="240" controls>
+  <source src="./Demo/README-gen-demo.mp4" type="video/mp4">
+</video>
 
   ## Table of Contents
 
